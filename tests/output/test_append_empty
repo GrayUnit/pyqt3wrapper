@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+class Window(QtGui.QWidget, Ui_Window):
+    def __init__(self, parent=None, f=QtCore.Qt.WindowFlags()):
+        QtGui.QWidget.__init__(self, parent, f)
+
+        self.setupUi(self)

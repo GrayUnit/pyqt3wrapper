@@ -1,0 +1,6 @@
+class Foo(object):
+    def bar(self):
+        pass
+
+    def haha(self):
+        self.setupUi(self)
